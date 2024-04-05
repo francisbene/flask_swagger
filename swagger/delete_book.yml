@@ -1,0 +1,10 @@
+parameters:
+  - name: book_id
+    in: path
+    type: integer
+    required: true
+    description: ID of the book to delete
+responses:
+  204:
+    description: Success
+    

@@ -1,0 +1,9 @@
+parameters:
+  - name: book_id
+    in: path
+    type: integer
+    required: true
+    description: ID of the book to get
+responses:
+  200:
+    description: Success

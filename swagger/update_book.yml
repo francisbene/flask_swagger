@@ -1,0 +1,15 @@
+parameters:
+  - name: book_id
+    in: path
+    type: integer
+    required: true
+    description: ID of the book to update
+  - in: body
+    name: body
+    required: true
+    description: Book object
+    schema:
+      type: object
+responses:
+  200:
+    description: Success

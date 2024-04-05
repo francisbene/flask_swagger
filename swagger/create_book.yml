@@ -1,0 +1,10 @@
+parameters:
+  - in: body
+    name: body
+    required: true
+    description: Book object
+    schema:
+      type: object
+responses:
+  201:
+    description: Created
